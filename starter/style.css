@@ -5,6 +5,10 @@
 }
 /* ==== Common Fix ends here==== */
 
+.wordinleft{
+    text-align: justify;
+}
+
 /* ===== First section starts here===== */
 .firstsection{
     height: 430px;
