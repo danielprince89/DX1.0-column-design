@@ -39,18 +39,18 @@ img{
 /* ===== First section starts here===== */
 
 span {
-    color: var(--main-color);
+    color: goldenrod;
 }
 .logotext{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .heading{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .line{
     height: 16px;
-    background: var(--main-color);
+    background: goldenrod;
     width: 224px;
 }
 
@@ -68,7 +68,7 @@ span {
 }
 /* second division starts here Insha Allah   */
 
-.seconddivision{
+.secondsection{
     /* height: 500px; */
     /* border: 3px solid tomato; */
     display: flex;
@@ -137,3 +137,32 @@ span {
     text-align: justify;
 }
 /* Third session ends here Insha Allah */
+
+/* footer starts here */
+footer{
+    /* border: 3px solid black; */
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    color: var(--white-color);
+}
+
+.footericons-container{
+    /* border: 3px solid red; */
+    width: 200px;
+    font-size: 22px;
+}
+
+.footer-icon{
+    margin: 0 5px;
+}
+/* footer stops here */
+
+/* safety measures starts here */
+.firstsection, .secondsection, .thirdsection, footer{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/* safety measures stopss here */

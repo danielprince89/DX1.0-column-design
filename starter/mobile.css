@@ -37,5 +37,13 @@
     flex-direction: column-reverse;
     background: var(--gray-color);
 }
+
+/* footer starts here  */
+footer{
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: center;
+}
+/* footer stops here */
 }
 
